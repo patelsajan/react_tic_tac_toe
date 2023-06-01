@@ -1,3 +1,6 @@
+/**
+ * React is a declarative, efficient, and flexible JavaScript library for building user interfaces. It lets you compose complex UIs from small and isolated pieces of code called “components”.
+ */
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -12,6 +15,10 @@ function Square(props) {
 		);
 	}
 
+/**
+ *react has different kinds of components. 
+ *here only React.Component is used.
+ */
 class Board extends React.Component {
 	constructor(props) {
 		super(props);
